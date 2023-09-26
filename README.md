@@ -7,11 +7,11 @@ Project consists of two sites and is built using HTML 5, CSS 3 and JavaScript. T
 
 # Screenshots
 
-![image](https://github.com/mrsklg/Watchlist/assets/100710286/31098c05-2017-4cb7-8ba7-7e5ac4dbac9a)
-![image](https://github.com/mrsklg/Watchlist/assets/100710286/d0848410-1fad-4156-871d-ba9150cfa259)
+![image](https://github.com/mrsklg/Watchlist/assets/100710286/afa14bb5-21db-4184-846d-a4f8a5307a97)
+![image](https://github.com/mrsklg/Watchlist/assets/100710286/801a47cf-4fb8-4014-9fcf-3622c4e10c88)
+![image](https://github.com/mrsklg/Watchlist/assets/100710286/1f054038-24ea-40a6-94af-179337bd80f8)
+![image](https://github.com/mrsklg/Watchlist/assets/100710286/cedcb612-5a00-4867-bfae-0a3ab722e8b0)
 
-![image](https://github.com/mrsklg/Watchlist/assets/100710286/f28327b6-d169-4a6a-a126-7ea7abc3b79c)
-![image](https://github.com/mrsklg/Watchlist/assets/100710286/0fd20637-6257-4c3c-a62e-d49da8a066c8)
 
 <br>
-This project is part of Scrimba's Frontend Developer Path course and was developed by me from scratch.
+<sub>This project is part of Scrimba's Frontend Developer Path course and was developed by me from scratch.</sub>
