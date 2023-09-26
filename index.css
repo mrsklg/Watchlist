@@ -1,0 +1,260 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #121212;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 3rem;
+    background: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.67469rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.48594rem; /* 55.556% */
+    letter-spacing: -0.12038rem;
+}
+
+.header-link {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.main-container {
+    max-width: 48rem;
+    display: flex;
+    flex-direction: column;
+    background: #121212;
+    margin: auto;
+}
+
+#search-form {
+    width: 90%;
+    display: flex;
+    background-color: #1C1C1C;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    margin: -20px auto 0;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 2rem;
+    display: block;
+    height: auto;
+}
+
+input {
+    font-size: 0.875rem;
+    color: #6b7280;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    padding: 0.5625rem;
+    background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Inter', sans-serif;
+    color: #A5A5A5;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#search-btn {
+    background: #4B4B4B;
+    padding: 0.5625rem 2rem;
+    cursor: pointer;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 0rem 0.375rem 0.375rem 0rem;
+}
+
+#search-results,
+#watchlist {
+    width: 90%;
+    min-height: 70vh;
+    margin: 2.5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-exploring {
+    color: #2E2E2F;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0.55rem;
+}
+
+.empty-info {
+    color: #787878;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.add-movies {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-icon,
+.minus-icon {
+    width: 2rem;
+    height: auto;
+}
+
+.movie-summary {
+    width: 100%;
+    display: flex;
+    padding: 1.3rem 0;
+    border-bottom: 1px solid #2C2C2C;
+}
+
+.movie-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 0.7rem;
+}
+
+.movie-poster {
+    width: 6rem;
+    height: 9rem;
+    margin-right: 1rem;
+}
+
+.movie-info h3 {
+    margin: 0 1rem 0 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.primary-info {
+    display: flex;
+    align-items: center;
+    margin: 0;   
+}
+
+.movie-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.watchlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.add-watchlist .minus-icon {
+    display: none;
+}
+
+.add-watchlist:hover {
+    box-shadow: 0 0 1px #787878;
+    border: none;
+}
+
+.watchlist:active,
+.watchlist:focus {
+    outline: none;
+}
+
+.remove-watchlist .plus-icon {
+    display: none;
+}
+
+.remove-watchlist .minus-icon {
+    display: block;
+}
+
+.ratings,
+.movie-details {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.star {
+    margin-right: 0.25rem;
+}
+
+.plot {
+    color: #A5A5A5;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.movie-summary:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
