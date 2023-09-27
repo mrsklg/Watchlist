@@ -1,7 +1,7 @@
 # Watchlist
 
-In this project the user can search for movies and add them to their watchlist, as well as view the watchlist itself and remove movies from the watchlist.<br><br>
-Project consists of two sites and is built using HTML 5, CSS 3 and JavaScript. The movies data come from The Open Movie Database (https://www.omdbapi.com/).
+In this project user can search for movies and add them to their watchlist, as well as view the watchlist itself and remove movies from the watchlist.<br><br>
+Project consists of two sites and is built using HTML 5, CSS 3 and JavaScript. The movies' data come from The Open Movie Database (https://www.omdbapi.com/).
 
 **Deployed with Netlify: <a href="https://marvelous-licorice-79bbac.netlify.app/watchlist" target="_blank">See the project</a>**
 
